@@ -1,0 +1,57 @@
+#T1{
+    font-size: larger;
+    color:yellow;
+}
+#body1{
+    background-image: url("../images/pizza.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    padding-bottom: 2cm;
+    margin-bottom: 1.0cm;
+    width: auto;
+}
+#h1{
+    font-style: italic;
+    color:yellowgreen;
+    text-align: center;
+}
+#p1{
+    color:white;
+    text-align: center;
+}
+#p2{
+    color: rgb(255, 17, 0);
+    text-align:right;
+}
+.row{
+    padding-top: 1.5cm;
+    padding-bottom: 2cm;
+}
+#p3{
+    text-align: center;
+    padding-left: 6cm;
+}
+#p4{
+    padding-left: 6cm;
+    padding-top: -4cm;
+}
+#p5{
+    padding-left: 6cm;
+}
+#order{
+    margin-left: 6cm;
+}
+#about{
+    background-image: url("/images/size.jpg");
+}
+#about{
+    color: chartreuse;
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .container,.card{
+        width:100%;
+    }
+    
+}
