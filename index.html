@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
-
-<head>
     <link href="css/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <title id="T1">PIZZA PALACE</title>
+
+<head>
+       
 </head>
 
 <body>
-    <div class="container">
-        <div id=body1>
+    <div class="container" id="body1">
+        <div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="contacts.html">Contacts</a>
+                     </li>
+                </ul>
+            </nav> 
             <h1 id="h1">PIZZA PALACE</h1>
             <div>
                 <h1 id="h1">About us</h1>
@@ -18,43 +28,64 @@
                 place! started in 2019.
                 Pizza palace is one of the original pizzas that helped define what has become known as Windsor-style
                 pizza for the entire region.</p>
-            <p id="p1">Pizza palace is often rated the #1 pizza place in kenya. And on the african stage ,Pizza palace
-                is ranked among the best in a compeition in cape town ,South Africa.
-                To whet your appetite, Pizza palace goes beyond traditional Windsor-style pizza and crafts
-                a wide range of pizza styles and configurations with hand-tossed thin crust, deep dish,</p>
-            <p id="p1">premium Galati cheese, our own Kenyan 100% Vegan Cheese, a wide range of fresh toppings, cured
-                and traditional ingredients.
-                We also cater to diet and food sensitivities with a variety of vegan and Gluten-free options.</p>
-            <p id=p2>We do home deliverly</p>
+                <p id="p1">Pizza palace is often rated the #1 pizza place in kenya. And on the african stage ,Pizza palace
+                    is ranked among the best in a compeition in cape town ,South Africa.
+                    To whet your appetite, Pizza palace goes beyond traditional Windsor-style pizza and crafts
+                    a wide range of pizza styles and configurations with hand-tossed thin crust, deep dish,</p>
+                
+                <p id=p2>We do home deliverly</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h8 id="h8">Our Prizes</h8>
+                <p id="p8">Small=650</p>
+                <p id="p8">Medium=900</p>
+                <p id="p8">large=1500</p>
+            </div>
+            <div class=col-md-4>
+                <h8 id="h8">Toppings</h8>
+                <p id="p8">bacon=50</p>
+                <p id="p8">chicken=50</p>
+                <p id="p8">babycon=50</p>
+
+            </div>
         </div>
     </div>
 
     <div class="container" id="about">
         <div class="row">
-            <div class="col-md-4" id="size">
+            <div class="col-md-3" id="size">
                 <h2 id="h2"><strong>Choose size</strong></h2>
                 <select>
-                    <option>Small</option>
-                    <option>Medium</option>
-                    <option>Large</option>
+                    <option value="small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="large">Large</option>
                 </select>
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <h2 id="h2"><strong>What Kind </strong></h2>
                 <select>
-                    <option>chicken</option>
-                    <option>vegeterian</option>
-                    <option>hawaian</option>
+                    <option value="mashroom">mashroom</option>
+                    <option value="vegeterian">vegeterian</option>
+                    <option value="hawaian">hawaian</option>
                 </select>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <h2 id="h2"><strong>which crust</strong></h2>
                 <select>
-                    <option>Crispy</option>
-                    <option>Stuffed</option>
-                    <option>Gluten-Free</option>
+                    <option value="Crispy">Crispy</option>
+                    <option value="Stuffed">Stuffed</option>
+                    <option value="Gluten-Free">Gluten-Free</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <h2 id="h2"><strong>Toppings</strong></h2>
+                <select>
+                    <option value="bacon">bacon</option>
+                    <option value="chicken">chicken</option>
+                    <option value="babycon">babycon</option>
                 </select>
             </div>
         </div>
@@ -90,31 +121,35 @@
                         <p>email:pizza palace</p>
                         <p>contact:+254 567 8353</p>
                     </div>
+                    <div class="card-body">
+                        <h6>Get us on</h6>
+                        <img src="/images/facebook.png">
+                        <img src="/images/twitter.png">
+                        <img src="/images/you_tube.png">
+                        <p3>@pizzapalace</p3>
+
+
+                     </div>
+
+            
+                    </div>            
                 </div>
+
+               <div>
+                   <p id="order1">your order</p>
+               </div>
+             
             </div>
         </div>
-        <div class="card-body">
-            <h6>Get us on</h6>
-            <img src="/images/facebook.png">
-            <img src="/images/twitter.png">
-            <img src="/images/you_tube.png">
-            <p3>@pizzapalace</p3>
-            
-                <div class="card-footer">Footer
-
-                </div>
-    
-
-        </div>
-       
-
-
-
-
-
-
-
     </div>
+    <div class="container text-center footer">
+        <p>&copy; 2019 | Pizza palace</p>
+      </div>
+
+    
+    
+  
+        
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
