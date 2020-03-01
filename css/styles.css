@@ -4,12 +4,13 @@
 }
 #body1{
     background-image: url("../images/pizza.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     padding: 30px;
     padding-bottom: 2cm;
     margin-bottom: 1.0cm;
-    width: auto;
+    width: 1200px;
+    height: 650px;
 }
 #h1{
     font-style: italic;
@@ -33,14 +34,13 @@
     padding-left: 6cm;
 }
 #p4{
-    padding-left: 6cm;
-    padding-top: -4cm;
+    padding-left: 6.5cm;
 }
 #p5{
-    padding-left: 6cm;
+    padding-left: 4cm;
 }
 #order{
-    margin-left: 6cm;
+    margin-left: 6.2cm;
 }
 #about{
     background-image: url("/images/size.jpg");
@@ -53,5 +53,18 @@
     .container,.card{
         width:100%;
     }
-    
+} 
+#order1{
+    text-align: center;
+    color:red;
+    font-size: 1.0cm;
+    padding-left: 6cm;
+}   
+#p8{
+    font-size: .7cm;
+    color: red;
+}
+#h8{
+    color: yellow;
+    font-size: 1cm;
 }
