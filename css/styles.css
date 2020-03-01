@@ -44,6 +44,7 @@
 }
 #about{
     background-image: url("/images/size.jpg");
+    padding-bottom: 3cm;
 }
 #about{
     color: chartreuse;
@@ -70,4 +71,20 @@
 }
 #b2{
     padding-left: 6cm;
+}
+#deliver{
+    background-image: url(/images/pizza.jpg);
+    height: 15cm;
+    text-align: justify;
+}
+#home{
+    color:yellow
+}
+.container{
+    background-image: url(/images/pizza.jpg);
+    padding-top: .5cm;
+}
+#h9{
+    color: yellow;
+    font-size: 1.0cm;
 }
