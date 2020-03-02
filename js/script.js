@@ -12,6 +12,7 @@ $(document).ready(function(){
         var crust=$("#crust option:selected").val();
         var toppings=("#toppings option:selected").val();
     })
+$document.getElementById("form1").value    
 if ("large"){
     price = 1500;
 }    
